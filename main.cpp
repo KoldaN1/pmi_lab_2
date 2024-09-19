@@ -2,10 +2,16 @@
 
 int main() 
 {
-	short S = 99; // Площадь основания
-	short h = 15; // Высота
+	short S, h;
 
-	std::cout << "S = " << S << ", H = " << h << ". Result: V = " << S * h / 3 << std::endl; 
+	std::cout << "Enter S (0 < S < 100): ";
+	std::cin >> S;
+	std::cout << "Enter h (0 < S < 100): ";
+	std::cin >> h;
+
+	double result = (S * h) / 3.0;
+
+	std::cout << "S = " << S << ", H = " << h << ". Result: V = " << result << std::endl; 
 	
 	return 0;
 }
