@@ -1,6 +1,4 @@
-// Директива препроцессора
 #include <iostream>
-#include <math.h>
 
 int main() 
 {
